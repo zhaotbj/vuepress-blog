@@ -6,7 +6,8 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '读书笔记', link: '/learning-notes/' },
+      { text: '技术', link: '/learning-notes/' },
+      { text: '读书', link: '/reading/' },
       { text: '组件', link: '/component/' },
       { text: '面试题', link: '/interview/' },
       { text: '关于', link: '/about/' }
@@ -44,6 +45,13 @@ module.exports = {
           collapsable: true,
           children: genSidebarConfig("interview/muke", true)
         },
+      ],
+      '/reading/': [
+        {
+          title: "读书笔记",
+          collapsable: true,
+          children: genSidebarConfig("reading/reading-notes", true)
+        }
       ]
     }
 
