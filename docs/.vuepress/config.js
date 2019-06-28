@@ -68,4 +68,3 @@ function genSidebarConfig(dir, hasSub) {
   });
   return files;
 }
-console.log(genSidebarConfig("learning-notes/js", true))
