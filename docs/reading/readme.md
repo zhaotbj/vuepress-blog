@@ -6,3 +6,4 @@
 
 
 * [2019年02月21日 » 北方的空地](/reading/reading-notes/北方的空地.md)
+* [2019年07月7日 » 如何成为一个有趣的人](/reading/reading-notes/如何成为一个有趣的人.md)
