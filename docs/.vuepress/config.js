@@ -1,16 +1,19 @@
 const path = require('path');
 const fs = require('fs');
 module.exports = {
-  title: '博客',
-  description: 'Just playing around',
+  title: 'BLOG',
+  description: 'Curriculum Vitae',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
       { text: '技术', link: '/learning-notes/' },
       { text: '读书', link: '/reading/' },
-      { text: '组件', link: '/component/' },
       { text: '面试题', link: '/interview/' },
-      { text: '关于', link: '/about/' }
+      { text: '关于', link: '/about/' },
+      { text: 'github', link: 'https://github.com/zhaotbj' }
     ],
     sidebar: {
       '/learning-notes/': [
@@ -23,7 +26,13 @@ module.exports = {
           title: "Vue",
           collapsable: true,
           children: genSidebarConfig("learning-notes/vue", true)
-        }, {
+        },
+        {
+          title: "React",
+          collapsable: true,
+          children: genSidebarConfig("learning-notes/react", true)
+        },
+         {
           title: "JS",
           collapsable: true,
           children: genSidebarConfig("learning-notes/js", true)

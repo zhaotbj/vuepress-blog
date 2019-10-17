@@ -76,11 +76,11 @@ git commit -m 'deploy'
 
 // 如果发布到 https://<USERNAME>.github.io
 
-git remote add origin git@github.com:zhaotianbj.github.io.git
+git remote add origin git@github.com:zhaotbj.github.io.git
 
 git push -f git@github.com:zhaotbj/zhaotbj.github.io.git
 
-// or git push -f git@github.com:zhaotbj/zhaotianbj.github.io.git master
+// or git push -f git@github.com:zhaotbj/zhaotbj.github.io.git master
 
 
 // 访问
